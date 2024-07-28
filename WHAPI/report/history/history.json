@@ -1,0 +1,60 @@
+{
+  "0cb6e1c7d2fad860b3c5e0c1dd43ada3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f895d9dd822dec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722155169542,
+        "stop" : 1722155169876,
+        "duration" : 334
+      }
+    } ]
+  },
+  "589b66304fb79d082ba2bb070d3a2488" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2696c0af3a4af93",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1722155169094,
+        "stop" : 1722155169094,
+        "duration" : 0
+      }
+    } ]
+  },
+  "62b88a0b8cc4be997734cadd46ba7e88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9dd0b275a577354d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1722155169185,
+        "stop" : 1722155169530,
+        "duration" : 345
+      }
+    } ]
+  }
+}

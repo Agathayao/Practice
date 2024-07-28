@@ -1,0 +1,57 @@
+
+#每条用例单独写
+#表示接口的第一组数据(正向用例)
+-
+  name: 正确用户名密码登录
+  request:
+    method: post
+    url: https://f.fkhwl.com/ml_nfs_api/accounts/login
+    data:
+      username: admin
+      password: 5aa757e53a23f5b1fc6c9686043f9d8cb617971771c04a0225d6664af56e9e4d
+      code: 1
+      clientType: 1
+  #断言
+  validate: 
+    success: True
+
+
+# #表示接口的第二组数据(反向用例：错误密码)
+-
+  name: 错误密码登录
+  request:
+    method: post
+    url: https://f.fkhwl.com/ml_nfs_api/accounts/login
+    data:
+      username: admin
+      password: 6aa757e53a23f5b1fc6c9686043f9d8cb617971771c04a0225d6664af56e9e4d
+      code: 1
+      clientType: 1
+  #断言
+  validate: 
+    success: False
+
+
+
+#通过csv文件批量获取用例
+# - name: $csv{name}
+#   parameters:
+#     name-username-password-code-clientType-assert_str: /data/get_token_data.csv
+#   request:
+#     method: post
+#     url: https://f.fkhwl.com/ml_nfs_api/accounts/login
+#     data:
+#       username: $csv{username}
+#       password: $csv{password}
+#       code: $csv{code}
+#       clientType: $csv{clientType}
+#     extract:
+#       #正则表达式
+#       #accessToken: '"accessToken": "(.+?)"'  
+#       #JSON提取器
+#       accessToken: accessToken
+#     validate:
+#     - equals: {code: 2000}
+#     - contains: $csv{assert_str}
+
+
