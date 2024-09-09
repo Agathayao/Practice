@@ -1,0 +1,56 @@
+{
+  "uid" : "9017c16556accfd6",
+  "name" : "test_searchPlan",
+  "fullName" : "testcase.test_plan.TestPlan#test_searchPlan",
+  "historyId" : "3d8efbc3c572d4acd72a9a1dc05e75dd",
+  "time" : {
+    "start" : 1725787047655,
+    "stop" : 1725787048113,
+    "duration" : 458
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_plan"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QU4CUV2J"
+  }, {
+    "name" : "thread",
+    "value" : "24764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9017c16556accfd6.json",
+  "parameterValues" : [ ]
+}

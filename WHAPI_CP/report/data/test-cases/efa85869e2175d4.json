@@ -1,0 +1,56 @@
+{
+  "uid" : "efa85869e2175d4",
+  "name" : "test_deletePlan",
+  "fullName" : "testcase.test_plan.TestPlan#test_deletePlan",
+  "historyId" : "d61e05bf184bb652e88b9156c4a018d6",
+  "time" : {
+    "start" : 1725787049110,
+    "stop" : 1725787049396,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_plan"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QU4CUV2J"
+  }, {
+    "name" : "thread",
+    "value" : "24764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efa85869e2175d4.json",
+  "parameterValues" : [ ]
+}

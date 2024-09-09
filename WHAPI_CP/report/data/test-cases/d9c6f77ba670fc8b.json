@@ -1,0 +1,56 @@
+{
+  "uid" : "d9c6f77ba670fc8b",
+  "name" : "test_auditMaterial",
+  "fullName" : "testcase.test_material.TestMaterial#test_auditMaterial",
+  "historyId" : "74b2a7105e72c05f77b6893aae264153",
+  "time" : {
+    "start" : 1725787046645,
+    "stop" : 1725787046990,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_material"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaterial"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QU4CUV2J"
+  }, {
+    "name" : "thread",
+    "value" : "24764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_material"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9c6f77ba670fc8b.json",
+  "parameterValues" : [ ]
+}

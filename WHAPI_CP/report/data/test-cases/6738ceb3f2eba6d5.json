@@ -1,0 +1,56 @@
+{
+  "uid" : "6738ceb3f2eba6d5",
+  "name" : "test_planLog",
+  "fullName" : "testcase.test_plan.TestPlan#test_planLog",
+  "historyId" : "6b71922a9678cc43bd02c922f052fd96",
+  "time" : {
+    "start" : 1725787048782,
+    "stop" : 1725787049104,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_plan"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QU4CUV2J"
+  }, {
+    "name" : "thread",
+    "value" : "24764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_plan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6738ceb3f2eba6d5.json",
+  "parameterValues" : [ ]
+}

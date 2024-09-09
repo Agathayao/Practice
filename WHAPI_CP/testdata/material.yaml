@@ -1,0 +1,24 @@
+-
+  name: 新增物资-有效验证
+  request:
+    method: post
+    url: https://f.fkhwl.com/ml_nfs_api/material/saveOrUpdate
+    data:
+      name: 石英
+      code: shiying
+  #断言
+  validate: 
+    success: True
+
+
+-
+  name: 新增物资-物资编码输入中文
+  request:
+    method: post
+    url: https://f.fkhwl.com/ml_nfs_api/material/saveOrUpdate
+    data:
+      name: 石英
+      code: 测试
+  #断言
+  validate: 
+    success: False   

@@ -1,0 +1,59 @@
+{
+  "uid" : "64dfc852806b3b8",
+  "name" : "test_addMaterial[args_name1]",
+  "fullName" : "testcase.test_material.TestMaterial#test_addMaterial",
+  "historyId" : "64e14b4bd0ae9b515eda70344df7bb05",
+  "time" : {
+    "start" : 1725787045698,
+    "stop" : 1725787045981,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_material"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaterial"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-QU4CUV2J"
+  }, {
+    "name" : "thread",
+    "value" : "24764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_material"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args_name",
+    "value" : "{'name': '新增物资-物资编码输入中文', 'request': {'method': 'post', 'url': 'https://f.fkhwl.com/ml_nfs_api/material/saveOrUpdate', 'data': {'name': '石英', 'code': '测试'}}, 'validate': {'success': False}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64dfc852806b3b8.json",
+  "parameterValues" : [ "{'name': '新增物资-物资编码输入中文', 'request': {'method': 'post', 'url': 'https://f.fkhwl.com/ml_nfs_api/material/saveOrUpdate', 'data': {'name': '石英', 'code': '测试'}}, 'validate': {'success': False}}" ]
+}
